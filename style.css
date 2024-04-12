@@ -1,22 +1,25 @@
-/* body{
-background: hsla(176, 73%, 88%, 1);
-background: linear-gradient(0deg, hsla(176, 73%, 88%, 1) 0%, hsla(193, 100%, 62%, 1) 100%);
-background: -moz-linear-gradient(0deg, hsla(176, 73%, 88%, 1) 0%, hsla(193, 100%, 62%, 1) 100%);
-background: -webkit-linear-gradient(0deg, hsla(176, 73%, 88%, 1) 0%, hsla(193, 100%, 62%, 1) 100%);
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CCF7F4", endColorstr="#3CD5FF", GradientType=1 );
-
-min-height: 100vh;
-} */
+[data-bs-theme = "dark"]{
+    body{
+        background: none;
+        background-color: #343a40;;
+    }
+    #contactme>form>div{
+        background: none !important; 
+    }
+    .btn-dark{
+        background-color: #5bc0de !important; 
+        color: #343a40;
+    }
+    .link-dark{
+        color: white !important;
+    }
+} 
 
 body {
     background-image: url(/img/circle-scatter-haikei.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* #home {
-    height: 76vh;
-} */
 
 #social-media>.list-group-item {
     background: none;

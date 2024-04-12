@@ -2,12 +2,16 @@ projects = [
     {
         name: "Investment webite",
         technologies: ["React JS", "Firebase", "Bootstrap"],
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae ullam officiis culpa, eius pariatur repellat blanditiis mollitia cupiditate eligendi magni quasi natus suscipit sequi maxime laborum qui explicabo iste a!"
+        desc: " Real-time stock and crypto market data using Rapid API, along with portfolio management, watchlist, News section using newsapi.org and charts using Chart.js ",
+        git_link:"https://github.com/neelpatel1111/n-Invest",
+        live_link:"https://n-invest.netlify.app"
     },
     {
         name: "Project Management Site",
         technologies: ["React JS", "Firebase", "Bootstrap"],
-        desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae ullam officiis culpa, eius pariatur repellat blanditiis mollitia cupiditate eligendi magni quasi natus suscipit sequi maxime laborum qui explicabo iste a!"
+        desc: "Project management includes Project Report, Workload, Task Management, File upload and review, Real Time Communications etc.",
+        git_link:"https://github.com/neelpatel1111/Project-Management-Site",
+        live_link:"https://neel-project-management.netlify.app"        
     }
 ]
 
@@ -34,7 +38,7 @@ skills = [
     },
     {
         title: "Firebase",
-        symbol_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8zSZSg3SKMxv4_vk5Q6dVg5vrv5JXahIG_ghMcEtTfw&s"
+        symbol_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/2048px-Firebase_icon.svg.png"
     },
     {
         title: "PHP",
@@ -44,5 +48,13 @@ skills = [
         title: "Express JS",
         symbol_url: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
     },
+    {
+        title: "MySQL",
+        symbol_url:"https://i0.wp.com/www.elearningworld.org/wp-content/uploads/2019/04/MySQL.svg.png?fit=600%2C400&ssl=1"
+    },
+    {
+        title: "Java",
+        symbol_url: "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+    }
     
 ]

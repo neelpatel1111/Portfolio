@@ -94,10 +94,10 @@
                                 I'm a full-stack web developer and I work remotely from India.
                             </div>
                         </div>
-                        <button class="btn btn-dark btn-lg rounded-0" type="button">
+                        <a class="btn btn-dark btn-lg rounded-0" type="button" href="./resume/resume.pdf" download="Neel_Patel.pdf">
                             <i class="bi bi-download"></i>
                             &nbsp;Resume
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -172,6 +172,14 @@
                                 ${tech.map(t => `<div class="bg-secondary-subtle  px-1 py-0 me-2">${t}</div>`).join('')}
                             </div>
                             <p class="card-text">${project.desc}</p>
+                            <a class="text-decoration-none link-dark me-4 border-bottom border-2 pb-1" href=${project.git_link} target="_blank">
+                                <i class="bi bi-code-slash"></i> 
+                                Code
+                            </a>
+                            <a class="text-decoration-none link-dark border-bottom border-2 pb-1" href=${project.live_link} target="_blank">
+                                <i class="bi bi-eye"></i>
+                                View
+                            </a>
                         </div>
                     </div>
                     `;
@@ -229,7 +237,7 @@
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control rounded-0" name="Name" id="floatingInput"
                             placeholder="Your Name" required>
-                        <label for="floatingInput">Name</label>
+                        <label for="floatingInput"><i class="bi bi-person-fill"></i> Name</label>
                     </div>
                 </div>
 
@@ -237,7 +245,7 @@
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control rounded-0" name="Email" id="floatingInput"
                             placeholder="Your Email" required>
-                        <label for="floatingInput">Email</label>
+                        <label for="floatingInput"><i class="bi bi-envelope-fill"></i> Email</label>
                     </div>
                 </div>
 
@@ -245,7 +253,7 @@
                     <div class="form-floating mb-3">
                         <textarea class="form-control rounded-0" name="Message" placeholder="Leave a comment here"
                             id="floatingTextarea2" style="height: 100px" required></textarea>
-                        <label for="floatingTextarea2">Message</label>
+                        <label for="floatingTextarea2"><i class="bi bi-chat-left-text-fill"></i> Message</label>
                     </div>
                 </div>
 
