@@ -1,0 +1,53 @@
+/* body{
+background: hsla(176, 73%, 88%, 1);
+background: linear-gradient(0deg, hsla(176, 73%, 88%, 1) 0%, hsla(193, 100%, 62%, 1) 100%);
+background: -moz-linear-gradient(0deg, hsla(176, 73%, 88%, 1) 0%, hsla(193, 100%, 62%, 1) 100%);
+background: -webkit-linear-gradient(0deg, hsla(176, 73%, 88%, 1) 0%, hsla(193, 100%, 62%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CCF7F4", endColorstr="#3CD5FF", GradientType=1 );
+
+min-height: 100vh;
+} */
+
+body {
+    background-image: url(/img/circle-scatter-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #home {
+    height: 76vh;
+} */
+
+#social-media>.list-group-item {
+    background: none;
+}
+
+#social-media>.list-group-item:hover {
+    transform: translateX(10px);
+    transition: ease-in .2s;
+}
+
+.navbar-nav>.nav-item>.nav-link:hover {
+    color: #5bc0de;
+}
+
+#projects>div>.card:hover {
+    border: none;
+    transform: translateZ(0) scale(1.05);
+    transition: ease-in .2s;
+    box-shadow: 0rem 0.5rem 1rem  lightgray;
+}
+
+#skills>div>.card:hover {
+    border: solid black;
+    transform: translateZ(0) scale(1.05);
+    transition: ease-in .2s;
+    box-shadow: 0rem 0.5rem 1rem  lightgray;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
