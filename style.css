@@ -1,27 +1,38 @@
-[data-bs-theme = "dark"]{
-    body{
+[data-bs-theme="dark"] {
+    body {
         background: none;
-        background-color: #343a40;;
+        background-color: #343a40;
+        transition: ease-in-out .5s;
     }
-    #contactme>form>div{
-        background: none !important; 
+
+    #contactme>form>div {
+        background: none !important;
     }
-    .btn-dark{
-        background-color: #5bc0de !important; 
+
+    .btn-dark {
+        background-color: #5bc0de !important;
         color: #343a40;
     }
-    .link-dark{
+
+    .link-dark {
         color: white !important;
     }
-    #footer{
+
+    #footer {
         background-color: #343a40 !important;
         color: white !important;
     }
-} 
+}
+
+[data-bs-theme="light"] {
+    body {
+        transition: ease-in-out .5s;
+    }
+}
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='1.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+}
 
 body {
     background-image: url(/img/circle-scatter-haikei.svg);
@@ -48,14 +59,14 @@ body {
     border: none;
     transform: translateZ(0) scale(1.05);
     transition: ease-in .2s;
-    box-shadow: 0rem 0.5rem 1rem  lightgray;
+    box-shadow: 0rem 0.5rem 1rem lightgray;
 }
 
 #skills>div>.card:hover {
     border: solid black;
     transform: translateZ(0) scale(1.05);
     transition: ease-in .2s;
-    box-shadow: 0rem 0.5rem 1rem  lightgray;
+    box-shadow: 0rem 0.5rem 1rem lightgray;
 }
 
 .back-to-top {
