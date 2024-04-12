@@ -17,7 +17,7 @@
 <!-- Import data file -->
 <script src="data.js"></script>
 
-<body class="p-0 m-0 ">
+<body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light px-lg-5 px-md-5 shadow-sm fixed-top" data-bs-theme="light">
@@ -49,7 +49,7 @@
                         data-bs-target="#navbarCollpase">
                         Contact me
                     </a>
-                    
+
                     <button id="btnSwitch" class="btn ms-4 p-0 border-0 fs-4">
                         <i class="bi bi-brightness-high-fill text-warning"></i>
                     </button>
@@ -61,8 +61,8 @@
     <!-- Navbar End -->
 
     <!-- Home -->
-    <div class="px-lg-5 py-5 my-5" id="home">
-        <div class="row ">
+    <div class="container px-lg-5 py-5 my-5" id="home">
+        <div class="row g-1">
             <div class="col-lg-6 col-md-6 order-lg-last order-md-last text-center pt-lg-5 pb-lg-5 pb-5">
                 <div class="d-flex">
 
@@ -84,7 +84,7 @@
 
             </div>
             <div class="col-lg-6 col-md-6">
-                <div class="ps-lg-5 ps-md-5 pt-lg-4 pt-md-4">
+                <div class="pt-lg-4 pt-md-4">
                     <div class="container-fluid pt-5 ps-lg-5 ps-md-5 rounded" id="info">
                         <h1 class="display-6 fw-bold mb-1">Hi, There <br />I am <span class="text-info"> Neel
                                 Patel.</span></h1>
@@ -94,7 +94,8 @@
                                 I'm a full-stack web developer and I work remotely from India.
                             </div>
                         </div>
-                        <a class="btn btn-dark btn-lg rounded-0" type="button" href="./resume/resume.pdf" download="Neel_Patel.pdf">
+                        <a class="btn btn-dark btn-lg rounded-0" type="button" href="./resume/resume.pdf"
+                            download="Neel_Patel.pdf">
                             <i class="bi bi-download"></i>
                             &nbsp;Resume
                         </a>
@@ -275,10 +276,69 @@
 
     <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" role="button">
         <i class="bi bi-chevron-up"></i>
-        </a>
+    </a>
 
     <!-- Back to Top End-->
 
+    <!-- Footer -->
+    <footer class="footer bg-light" id="footer">
+        <div class="container">
+            <div class="py-3">
+                <div class="d-flex justify-content-between border-bottom">
+                    <ul class="nav pt-2">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#aboutContainer" class="nav-link px-2 text-body-secondary">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projectsContainer" class="nav-link px-2 text-body-secondary">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skillsContainer" class="nav-link px-2 text-body-secondary">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contactme" class="nav-link px-2 text-body-secondary">Contact me</a>
+                        </li>
+                    </ul>
+                    <ul class="nav">
+                        <li class="nav-link">
+                            <a href="http://" target="_blank" class="nav-link link-primary fs-5 px-0">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://github.com/neelpatel1111" target="_blank" class="nav-link link-dark fs-5 px-0">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="http://" target="_blank" class="nav-link link-danger fs-5 px-0">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="http://" target="_blank" class="nav-link link-dark fs-5 px-0">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="http://" target="_blank" class="nav-link link-primary fs-5 px-0">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-between py-3">
+                    <span class="text-center text-body-secondary">© 2024  All rights reserved.</span>
+                    <span class="text-center text-body-secondary">Developed and designed by Neel Patel.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
